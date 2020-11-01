@@ -8,18 +8,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
 
     <script>
-      //Your web app's Firebase configuration
-
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
-
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD68vjjUuA2wTRiD0Q3C_dTTOM65Jcjets",
+        authDomain: "multiplayer-game-f6bc1.firebaseapp.com",
+        databaseURL: "https://multiplayer-game-f6bc1.firebaseio.com",
+        projectId: "multiplayer-game-f6bc1",
+        storageBucket: "multiplayer-game-f6bc1.appspot.com",
+        messagingSenderId: "200864954988",
+        appId: "1:200864954988:web:67b216820d04b3dde33649"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
     </script>
 
     <script src="js/Player.js"></script>
